@@ -6,3 +6,38 @@ body {
   margin: 0;
   font: 16px / 1 sans-serif;
 }
+
+/* Introduction styling */
+section.intro {
+  background-image: url(https://github.com/tiy-tpa-fee/fee-c6/blob/master/assignments/portfolio/assets/space.png?raw=true);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 36em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+div.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 50em;
+}
+
+div.header img {
+  border-radius: 0.2em;
+  position: relative;
+  margin-bottom: 3em;
+}
+
+div.header div.intro-p {
+  background-color: rgba(255, 255, 255, 0.79);
+  height: 6em;
+  margin-left: 1.5em;
+  margin-top: -1.2em;
+  border-radius: 0.2em;
+  padding: 0 1.3em;
+}
