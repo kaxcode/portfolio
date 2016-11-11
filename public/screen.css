@@ -42,7 +42,7 @@ div.header div.intro-p {
   margin-left: 1.5em;
   margin-top: -1.2em;
   border-radius: 0.2em;
-  padding: 0 1.3em;
+  padding: 0 1.2em;
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -65,7 +65,6 @@ div.header div.intro-p::after {
   content: '';
   background-image: url('https://github.com/tiy-tpa-fee/fee-c6/blob/master/assignments/portfolio/assets/tri.png?raw=true');
   opacity: 0.73;
-  background-color: #;
   height: 20px;
   width: 20px;
   display: block;
@@ -78,10 +77,6 @@ div.header div.intro-p::after {
 div.portfolio {
   margin-top: 2.3em;
   width: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-start;
 }
 
 div.portfolio ul {
@@ -91,12 +86,10 @@ div.portfolio ul {
   list-style-type: none;
   justify-content: flex-start;
   padding-left: 0;
-  margin-top: 60px;
+  margin-top: 55px;
 }
 
 div.portfolio li {
-  overflow: hidden;
-  border-radius: 1em;
   padding: 30px 18px;
 }
 
@@ -106,4 +99,73 @@ div.portfolio img {
   margin: 0;
   padding: 0;
   border-radius: 1em;
+}
+
+/* Article styling */
+section.blog {
+  background-color: #001424;
+  width: 100;
+  padding: 2em;
+}
+
+div.article {
+  position: relative;
+  margin-bottom: 1.5em;
+  border: 1px solid #333;
+  padding: 0;
+  border-radius: 0.4em;
+  background-color: #fff;
+}
+
+div.article-headerone {
+  background-image: url(https://github.com/tiy-tpa-fee/fee-c6/blob/master/assignments/portfolio/assets/react.png?raw=true);
+  background-color: #001424;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 60px;
+  border-radius: 0.2em 0.2em 0 0;
+}
+
+div.article-headertwo {
+  background-image: url(https://github.com/tiy-tpa-fee/fee-c6/blob/master/assignments/portfolio/assets/code.png?raw=true);
+  background-color: #001424;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 60px;
+  border-radius: 0.2em 0.2em 0 0;
+}
+
+section.blog div.article div.article-content {
+  background-color: #fff;
+  border-radius: 0.3em;
+}
+
+div.article-content h3 {
+  padding: 0 1.8em;
+  font-family: 'Sansita One', cursive;
+}
+
+div.article-content p {
+  padding: 0 2em;
+  font-family: 'Roboto', sans-serif;
+}
+
+div.article-content a {
+  background-color: hsla(207, 74%, 23%, 1);
+  padding: 10px;
+  font-weight: bold;
+  position: absolute;
+  right: 10px;
+  bottom: -10px;
+  border: 1px solid hsl(200, 60%, 50%);
+  border-radius: 0.3em;
+  font-family: 'Sansita One', cursive;
+}
+
+.more:link,
+.more:visited {
+  color: white;
+  text-decoration: none;
 }
