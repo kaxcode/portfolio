@@ -147,19 +147,20 @@ div.article-content div.blog-time {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
-  margin-left: -58em;
+  justify-content: flex-start;
+  padding-left: 2.2em;
+  margin-bottom: -0.8em;
 }
 
 div.article-content div.blog-time h3 {
   font-family: 'Sansita One', cursive;
+  font-size: 1.6em;
 }
 
 div.article-content div.blog-time p {
   font-family: 'Roboto', sans-serif;
-  margin-top: 1.88em;
+  margin-top: 2.8em;
   font-size: 0.8em;
-  margin-left: -1em;
   font-weight: bold;
 }
 
@@ -210,13 +211,23 @@ div.social-box i {
   color: #fff;
 }
 
-footer p {
+footer p.copyright {
   color: #fff;
   width: 37em;
   font-family: 'Roboto', sans-serif;
+  margin-top: 1.9em;
+  font-size: 0.8em;
 }
 
-/* icon styling */
+footer p.stay {
+  color: #fff;
+  font-family: 'Sansita One', cursive;
+  font-size: 3em;
+  margin-top: 0.3em;
+  margin-bottom: 0.2em;
+}
+
+/* Icon styling */
 .icons:link,
 .icons:visited {
   color: white;
