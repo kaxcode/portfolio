@@ -13,7 +13,7 @@ section.intro {
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
-  height: 36em;
+  height: 51.5em;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -25,6 +25,7 @@ div.header {
   flex-wrap: wrap;
   justify-content: center;
   max-width: 50em;
+  padding-top: 10em;
 }
 
 div.header img {
@@ -54,4 +55,33 @@ div.header div.intro-p::after {
   position: absolute;
   bottom: -20px;
   left: 22px;
+}
+
+/* Portfolio section styling */
+div.portfolio {
+  width: 1265px;
+}
+
+div.portfolio ul {
+  background-color: rgba(0, 0, 0, 0.58);
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: flex-start;
+  padding-left: 0;
+  margin-top: 60
+}
+
+div.portfolio li {
+  overflow: hidden;
+  border-radius: 1em;
+  padding: 30px 18px;
+}
+
+div.portfolio img {
+  width: 280px;
+  height: 230px;
+  margin: 0;
+  padding: 0;
+  border-radius: 1em;
 }
