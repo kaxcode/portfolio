@@ -1,3 +1,5 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
 html {
   text-size-adjust: 100%;
 }
@@ -101,11 +103,10 @@ div.portfolio img {
   border-radius: 1em;
 }
 
-/* Article styling */
+/* Article-Blog styling */
 section.blog {
   background-color: #001424;
-  width: 100;
-  padding: 2em;
+  padding: 1.5em;
 }
 
 div.article {
@@ -159,7 +160,7 @@ div.article-content a {
   position: absolute;
   right: 10px;
   bottom: -10px;
-  border: 1px solid hsl(200, 60%, 50%);
+  border: 1px solid hsla(207, 74%, 23%, 1);
   border-radius: 0.3em;
   font-family: 'Sansita One', cursive;
 }
@@ -168,4 +169,46 @@ div.article-content a {
 .more:visited {
   color: white;
   text-decoration: none;
+}
+
+/* footer styling */
+footer {
+  background-color: hsla(207, 74%, 23%, 1);
+  background-color: #001424;
+  padding-bottom: 1em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: -1em;
+}
+
+
+
+footer div.social-box a {
+  width: 3em;
+  height: 3em;
+}
+
+div.social-box i {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer p {
+  color: #fff;
+  width: 37em;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* icon styling */
+.icons:link,
+.icons:visited {
+  color: white;
+  text-decoration: none;
+  padding: 0.5em;
+}
+.icons {
+  font-size: 2.5em;
 }
