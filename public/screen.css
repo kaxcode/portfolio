@@ -11,9 +11,9 @@ body {
 
 /* Introduction styling */
 section.intro {
-  background-image: url(https://github.com/tiy-tpa-fee/fee-c6/blob/master/assignments/portfolio/assets/space.png?raw=true);
+  background-color: #e55f5f;
   background-size: cover;
-  background-position: top;
+  background-position: bottom;
   background-repeat: no-repeat;
   height: auto;
   width: 100%;
@@ -27,22 +27,19 @@ div.header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 60em;
-  padding-top: 10em;
+  margin: 1em;
 }
 
 div.header img {
   border-radius: 0.2em;
-  position: relative;
-  margin-bottom: 3em;
+  border: 1em solid #fff;
+  margin-left: 1em;
 }
 
 div.header div.intro-p {
-  background-color: rgba(255, 255, 255, 0.73);
-  height: 8em;
-  width: 28em;
-  margin-left: 1.5em;
-  margin-top: -1.2em;
+  background-color: rgba(236, 143, 143, 0.5);
+  height: auto;
+  width: 60%;
   border-radius: 0.2em;
   padding: 0 1.2em;
   position: relative;
@@ -53,26 +50,14 @@ div.header div.intro-p {
 
 div.header div.intro-p h2 {
   font-family: 'Sansita One', cursive;
-  font-size: 2.4em;
+  font-size: 5em;
   margin-top: 0.6em;
   margin-bottom: 0;
 }
 
 div.header div.intro-p p {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.3em;
-}
-
-div.header div.intro-p::after {
-  content: '';
-  background-image: url('https://github.com/tiy-tpa-fee/fee-c6/blob/master/assignments/portfolio/assets/tri.png?raw=true');
-  opacity: 0.73;
-  height: 20px;
-  width: 20px;
-  display: block;
-  position: absolute;
-  bottom: -20px;
-  left: 22px;
+  font-size: 2em;
 }
 
 /* Portfolio section styling */
@@ -104,7 +89,7 @@ div.portfolio img {
 }
 
 /* Article-Blog styling */
-section.blog {
+/*section.blog {
   background-color: #001424;
   padding: 1.5em;
 }
@@ -186,24 +171,21 @@ div.article-content a {
 .more:visited {
   color: white;
   text-decoration: none;
-}
+}*/
 
 /* footer styling */
 footer {
-  background-color: hsla(207, 74%, 23%, 1);
-  background-color: #001424;
-  padding-bottom: 1em;
+  background-color: #e55f5f;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin-top: -1em;
 }
 
 footer div.social-box a {
-  width: 3em;
-  height: 3em;
+  /*width: 3em;
+  height: 3em;*/
 }
 
 div.social-box i {
@@ -213,10 +195,10 @@ div.social-box i {
 
 footer p.copyright {
   color: #fff;
-  width: 37em;
+  /*width: 37em;*/
   font-family: 'Roboto', sans-serif;
-  margin-top: 1.9em;
   font-size: 0.8em;
+  margin: 1.4em;
 }
 
 footer p.stay {
