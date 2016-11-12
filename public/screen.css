@@ -53,6 +53,7 @@ div.header div.intro-p h2 {
   font-size: 5em;
   margin-top: 0.6em;
   margin-bottom: 0;
+  max-width: 100%;
 }
 
 div.header div.intro-p p {
@@ -61,31 +62,31 @@ div.header div.intro-p p {
 }
 
 /* Portfolio section styling */
-div.portfolio {
-  margin-top: 2.3em;
+section.portfolio {
   width: auto;
-}
-
-div.portfolio ul {
-  background-color: rgba(0, 0, 0, 0.58);
+  background-color: rgba(236, 143, 143, 0.5);
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
   justify-content: flex-start;
-  padding-left: 0;
-  margin-top: 55px;
 }
 
-div.portfolio li {
-  padding: 30px 18px;
-}
-
-div.portfolio img {
-  width: 280px;
-  height: 230px;
+section.portfolio div.border {
+  height: 675px;
+  min-height: 675;
+  width: 50%;
   margin: 0;
-  padding: 0;
-  border-radius: 1em;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+section.portfolio div.no-border {
+  height: 675px;
+  min-height: 675px;
+  width: 50%;
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 /* Article-Blog styling */
