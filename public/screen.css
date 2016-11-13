@@ -11,7 +11,7 @@ body {
 
 /* Introduction styling */
 section.intro {
-  background-color: #e55f5f;
+  background-color: #ceb7ce;
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -37,7 +37,7 @@ div.header img {
 }
 
 div.header div.intro-p {
-  background-color: rgba(236, 143, 143, 0.5);
+  background-color: hsla(300, 18%, 88%, 0.5);
   height: auto;
   width: 60%;
   border-radius: 0.2em;
@@ -50,7 +50,7 @@ div.header div.intro-p {
 
 div.header div.intro-p h2 {
   font-family: 'Sansita One', cursive;
-  font-size: 5em;
+  font-size: 4em;
   margin-top: 0.6em;
   margin-bottom: 0;
   max-width: 100%;
@@ -63,30 +63,37 @@ div.header div.intro-p p {
 
 /* Portfolio section styling */
 section.portfolio {
-  width: auto;
-  background-color: rgba(236, 143, 143, 0.5);
+  width: 100%;
+  background-color: hsla(300, 18%, 88%, 0.5);
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
-  justify-content: flex-start;
+  justify-content: space-between;
 }
 
 section.portfolio div.border {
   height: 675px;
   min-height: 675;
   width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 0;
-  padding-left: 0;
-  padding-right: 0;
 }
 
 section.portfolio div.no-border {
   height: 675px;
   min-height: 675px;
   width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 0;
-  padding-left: 0;
-  padding-right: 0;
+  padding: 0;
+}
+
+section.portfolio div.border img {
+  border: 1em solid #fff;
 }
 
 /* Article-Blog styling */
@@ -176,17 +183,12 @@ div.article-content a {
 
 /* footer styling */
 footer {
-  background-color: #e55f5f;
+  background-color: #ceb7ce;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-}
-
-footer div.social-box a {
-  /*width: 3em;
-  height: 3em;*/
 }
 
 div.social-box i {
@@ -196,7 +198,6 @@ div.social-box i {
 
 footer p.copyright {
   color: #fff;
-  /*width: 37em;*/
   font-family: 'Roboto', sans-serif;
   font-size: 0.8em;
   margin: 1.4em;
@@ -213,7 +214,7 @@ footer p.stay {
 /* Icon styling */
 .icons:link,
 .icons:visited {
-  color: white;
+  color: #fff;
   text-decoration: none;
   padding: 0.5em;
 }
