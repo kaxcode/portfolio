@@ -1,0 +1,61 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+div.jumbotron {
+  background-color: #ceb7ce;
+}
+
+div.social-box-top i {
+  text-decoration: none;
+  color: #fff;
+  padding-right: 1em;
+}
+
+div.container h1 {
+  font-family: 'Sansita One', cursive;
+}
+
+div.container p {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* footer styling */
+footer {
+  background-color: #ceb7ce;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+div.social-box i {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer p.copyright {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.8em;
+  margin: 1.4em;
+}
+
+footer p.stay {
+  color: #fff;
+  font-family: 'Sansita One', cursive;
+  font-size: 3em;
+  margin-top: 0.3em;
+  margin-bottom: 0.2em;
+}
+
+/* Icon styling */
+.icons:link,
+.icons:visited {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5em;
+}
+
+.icons {
+  font-size: 2.5em;
+}
